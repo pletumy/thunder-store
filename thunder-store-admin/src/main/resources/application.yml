@@ -1,0 +1,42 @@
+app:
+  jwt:
+    secretKey: B1PtOxdWYsCuZ7fon6wMuUWwsGtLouYyUl4LVScBNiKSKWIHt+fSWKq9sxEPc8ts+8ey1o/qdy5oMs1qYgq0hQ==
+  allowed:
+    origins: ${ALLOWED_ORIGINS}
+server:
+  port: ${SERVER_PORT}
+spring:
+  profiles:
+    active: ${ACTIVE_PROFILE}
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: ${MYSQL_SQL_PASSWORD}
+    url: jdbc:mysql://${MYSQL_SQL_HOST}:${MYSQL_SQL_PORT}/${MYSQL_SQL_DB}
+    username: ${MYSQL_SQL_USERNAME}
+  jpa:
+    generate-ddl: false
+    show-sql: true
+
+  mail:
+    default-encoding: UTF-8
+    host: ${EMAIL_HOST}
+    password: ${EMAIL_PASSWORD}
+    username: ${EMAIL_ID}
+    port: ${EMAIL_PORT}
+    properties:
+      mail:
+        mime:
+          charset: UTF
+        smtp:
+          writetimeout: 10000
+          connectiontimeout: 10000
+          timeout: 10000
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+springdoc:
+  swagger-ui:
+    filter: true
+

@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+body {
+    font-size: 1.6rem;
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+label {
+    cursor: pointer;
+}
+input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 1.6rem;
+}
+button {
+    border: none;
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+}
+textarea {
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    resize: none;
+    overflow: auto;
+    outline: none;
+    font-size: 1.6rem;
+}

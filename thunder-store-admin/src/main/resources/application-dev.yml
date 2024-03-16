@@ -1,0 +1,16 @@
+ACTIVATE_PROFILE: dev
+
+EMAIL_HOST: smtp.gmail.com
+EMAIL_ID: tumy.drive3@gmail.com
+EMAIL_PASSWORD: ttxb nlka qgzj xgjt
+EMAIL_PORT: 587
+
+MYSQL_SQL_DB: thunder_store_db
+MYSQL_SQL_HOST: localhost
+MYSQL_SQL_PASSWORD: Lucia@123
+MYSQL_SQL_PORT: 3306
+MYSQL_SQL_USERNAME: root
+
+SERVER_PORT: 8080
+
+ALLOWED_ORIGINS: http://localhost:3000,http://localhost:3001
