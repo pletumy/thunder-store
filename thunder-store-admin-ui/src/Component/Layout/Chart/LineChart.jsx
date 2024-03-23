@@ -88,7 +88,7 @@ export function LineChart() {
                         borderDash: [],
                         borderDashOffset: 0.0,
                         borderJoinStyle: 'miter',
-                        pointBorderColor: '#f59121',
+                        pointBorderColor: '#212121',
                         pointBackgroundColor: '#fff',
                         pointBorderWidth: 1,
                         pointHoverRadius: 5,

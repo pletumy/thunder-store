@@ -19,7 +19,7 @@ const columns = [
     {
         title: 'Tag',
         dataIndex: 'tag',
-        render: (tag) => <Tag color="#f59121">{tag}</Tag>,
+        render: (tag) => <Tag color="#212121">{tag}</Tag>,
     },
     {
         title: 'Description',

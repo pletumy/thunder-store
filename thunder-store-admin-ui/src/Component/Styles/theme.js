@@ -1,7 +1,7 @@
 const theme = {
     token: {
         // Seed Token
-        colorPrimary: '#f59121',
+        colorPrimary: '#212121',
         borderRadius: 6,
         fontSize: 16,
         iconSize: 18,
@@ -12,10 +12,10 @@ const theme = {
     components: {
         Menu: {
             itemHoverBg: '#f59121',
-            itemActiveBg: '#f59121',
+            itemActiveBg: '#212121',
             itemHoverColor: '#fff',
             itemActiveColor: '#fff',
-            itemSelectedBg: '#f59121',
+            itemSelectedBg: '#212121',
             itemSelectedColor: '#fff',
         },
     },

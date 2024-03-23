@@ -15,7 +15,7 @@ const Container = styled.section`
     height: 100vh;
     display: flex;
     justify-content: center;
-    background: url('https://res.cloudinary.com/devshopcloud/image/upload/v1694394565/devshop/banner/13686036_5185208_ale18a.jpg')
+    background: url('https://bramsfruit.com/wp-content/uploads/2021/12/BF-lookbook-FW21-Femke-Lukas.jpg')
         center/cover no-repeat;
     position: relative;
 `;
