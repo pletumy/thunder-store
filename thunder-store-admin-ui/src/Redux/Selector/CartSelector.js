@@ -1,7 +1,5 @@
 import { createSelector } from '@reduxjs/toolkit';
 
-import { createSelector } from '@reduxjs/toolkit';
-
 export const getCartItem = (state) => state.cart?.cartItem;
 export const getNumberOfItem = (state) => state.cart?.numberOfItem;
 

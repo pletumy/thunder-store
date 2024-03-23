@@ -7,7 +7,29 @@ import userSlide from './Slide/UserSlide';
 const persistConfig = {
     key: 'root',
     storage,
-    whitelist: ['auth','category'],
+    whitelist: ['auth', 'category'],
     blacklist: ['product'],
 };
 
+const rootReducer = combineReducers({
+    auth: authSlide.reducer,
+    product: productSlide.reducer,
+    order: orderSlide.reducer,
+    loading: loadingSlide.reducer,
+    category: categoriesSlide.reducer,
+    users: userSlide.reducer,
+});
+const persistedReducer = persistReducer(persistConfig, rootReducer);
+
+export const store = configureStore({
+    reducer: persistedReducer,
+    middleware: (getDefaultMiddleware) =>
+        getDefaultMiddleware({
+            serializableCheck: {
+                ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+            },
+        }),
+});
+
+export let persistor = persistStore(store);
+export default store;

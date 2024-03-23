@@ -13,6 +13,7 @@ export const getCategories = (state) => state.categories.categories;
 export const getSectionsProduct = (tag) => {
     return createSelector(getCategories, getAllProducts, (categories, products) => {
         const cate = categories.find((cate) => cate.tag === tag);
+
         if (cate) {
             return products.filter((product) => product.tag.includes(cate.tag));
         }
