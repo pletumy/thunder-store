@@ -13,9 +13,8 @@ import lombok.experimental.SuperBuilder;
 @Getter
 @NoArgsConstructor
 @SuperBuilder
-public class CSizeDTO {
+public class CProductImageDTO {
     private String id;
-
     @NotBlank
-    private String size;
+    private String url;
 }

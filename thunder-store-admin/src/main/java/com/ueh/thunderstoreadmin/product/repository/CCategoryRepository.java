@@ -1,5 +1,6 @@
 package com.ueh.thunderstoreadmin.product.repository;
 
+import com.ueh.thunderstoreadmin.product.model.CCategory;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

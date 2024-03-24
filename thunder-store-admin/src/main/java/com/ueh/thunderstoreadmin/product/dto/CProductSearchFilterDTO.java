@@ -1,10 +1,12 @@
 package com.ueh.thunderstoreadmin.product.dto;
 
-import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.SuperBuilder;
+
+import java.math.BigDecimal;
+import java.util.Set;
 
 /**
  * @author TuMy
@@ -13,9 +15,9 @@ import lombok.experimental.SuperBuilder;
 @Getter
 @NoArgsConstructor
 @SuperBuilder
-public class CSizeDTO {
-    private String id;
-
-    @NotBlank
-    private String size;
+public class CProductSearchFilterDTO {
+    private Set<String> colorIds;
+    private Set<String> categoryIds;
+    private BigDecimal minPrice;
+    private BigDecimal maxPrice;
 }

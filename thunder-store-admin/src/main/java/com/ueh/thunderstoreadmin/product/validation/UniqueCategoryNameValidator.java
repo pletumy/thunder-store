@@ -1,5 +1,6 @@
 package com.ueh.thunderstoreadmin.product.validation;
 
+import com.ueh.thunderstoreadmin.product.model.CCategory;
 import com.ueh.thunderstoreadmin.product.repository.CCategoryRepository;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
