@@ -1,5 +1,6 @@
 package com.ueh.thunderstoreadmin.order.dto;
 
+import com.ueh.thunderstoreadmin.order.model.CPaymentMethod;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

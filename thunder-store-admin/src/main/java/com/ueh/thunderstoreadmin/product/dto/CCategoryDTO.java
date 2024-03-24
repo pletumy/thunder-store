@@ -1,5 +1,6 @@
 package com.ueh.thunderstoreadmin.product.dto;
 
+import com.ueh.thunderstoreadmin.product.validation.UniqueCategoryName;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

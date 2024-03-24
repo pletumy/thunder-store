@@ -2,6 +2,11 @@ package com.ueh.thunderstoreadmin.cart.service;
 
 import com.ueh.thunderstoreadmin.cart.dto.CAddProductToCartDTO;
 import com.ueh.thunderstoreadmin.cart.dto.CCartDTO;
+import com.ueh.thunderstoreadmin.cart.dto.CCartItemDTO;
+import com.ueh.thunderstoreadmin.cart.model.CCart;
+import com.ueh.thunderstoreadmin.cart.model.CCartItem;
+import com.ueh.thunderstoreadmin.cart.repository.CCartItemRepository;
+import com.ueh.thunderstoreadmin.cart.repository.CCartRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

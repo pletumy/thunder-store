@@ -1,5 +1,6 @@
 package com.ueh.thunderstoreadmin.cart.dto;
 
+import com.ueh.thunderstoreadmin.cart.model.CCartItem;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

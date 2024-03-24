@@ -1,5 +1,7 @@
 package com.ueh.thunderstoreadmin.cart.controller;
 
+import com.ueh.thunderstoreadmin.cart.dto.CAddProductToCartDTO;
+import com.ueh.thunderstoreadmin.cart.dto.CCartDTO;
 import com.ueh.thunderstoreadmin.cart.service.CCartService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

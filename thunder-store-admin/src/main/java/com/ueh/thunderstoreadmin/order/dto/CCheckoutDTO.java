@@ -1,5 +1,8 @@
 package com.ueh.thunderstoreadmin.order.dto;
 
+import com.ueh.thunderstoreadmin.cart.dto.CCartItemDTO;
+import com.ueh.thunderstoreadmin.order.model.CPaymentMethod;
+import com.ueh.thunderstoreadmin.order.model.CPaymentStatus;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;

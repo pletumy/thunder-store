@@ -1,5 +1,6 @@
-package com.ueh.thunderstoreadmin.cart.dto;
+package com.ueh.thunderstoreadmin.product.dto;
 
+import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -12,8 +13,12 @@ import lombok.experimental.SuperBuilder;
 @Getter
 @NoArgsConstructor
 @SuperBuilder
-public class CCartItemUpdateDTO {
-    private int quantity;
+public class CColorDTO {
+    private String id;
+
+    @NotBlank
+    private String name;
+
+    @NotBlank
     private String color;
-    private String size;
 }
