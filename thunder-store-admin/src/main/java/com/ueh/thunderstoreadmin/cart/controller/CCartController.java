@@ -10,9 +10,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
-/**
- * @author TuMy
- */
 @RestController
 @RequestMapping("/api/v1/cart")
 public class CCartController {

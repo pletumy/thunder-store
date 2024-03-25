@@ -6,7 +6,7 @@ EMAIL_PASSWORD: ttxb nlka qgzj xgjt
 EMAIL_PORT: 587
 
 MYSQL_SQL_DB: thunder_store_db
-MYSQL_SQL_HOST:
+MYSQL_SQL_HOST: cozastore-aws-db.clu6x2bjbvwm.ap-southeast-1.rds.amazonaws.com
 MYSQL_SQL_PASSWORD: Lucia@123
 MYSQL_SQL_PORT: 3306
 MYSQL_SQL_USERNAME: root

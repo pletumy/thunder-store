@@ -7,6 +7,7 @@ import com.ueh.thunderstoreadmin.user.model.CUserAddress;
 import com.ueh.thunderstoreadmin.user.repository.CUserAddressRepository;
 import com.ueh.thunderstoreadmin.user.repository.CUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
@@ -15,6 +16,8 @@ import java.util.stream.Collectors;
 /**
  * @author TuMy
  */
+
+@Service
 public class CUserAddressImpl implements CUserAddressService{
     @Autowired
     private CUserAddressRepository repository;
@@ -81,3 +84,4 @@ public class CUserAddressImpl implements CUserAddressService{
                 .collect(Collectors.toList());
     }
 }
+

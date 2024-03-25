@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad5ef01a-3f6d-4c28-af7c-c5eec4ec752c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/thunder-store-admin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/thunder-store-admin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thunder-store-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thunder-store-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thunder-store-admin/src/main/java/com/ueh/thunderstoreadmin/cart/controller/CCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/thunder-store-admin/src/main/java/com/ueh/thunderstoreadmin/cart/controller/CCartController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2eBaTo38Ppnlklpw8RPNCpoSkEP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ADMIN/Downloads/thunder-store/thunder-store-admin",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad5ef01a-3f6d-4c28-af7c-c5eec4ec752c" name="Changes" comment="" />
+      <created>1711380435551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711380435551</updated>
+      <workItem from="1711380436695" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
