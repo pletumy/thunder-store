@@ -13,6 +13,4 @@ public interface CRoleMapper {
     CRoleMapper INSTANCE = Mappers.getMapper(CRoleMapper.class);
     CRoleDTO toDTO(CRole entity);
     CRole toEntity(CRoleDTO dto);
-
-    CRoleDTO toDTO(CRole entity);
 }

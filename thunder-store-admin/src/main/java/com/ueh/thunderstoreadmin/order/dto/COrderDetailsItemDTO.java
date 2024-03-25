@@ -1,5 +1,6 @@
 package com.ueh.thunderstoreadmin.order.dto;
 
+import com.ueh.thunderstoreadmin.product.dto.CProductDTO;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

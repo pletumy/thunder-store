@@ -3,6 +3,6 @@ package com.ueh.thunderstoreadmin.order.model;
 /**
  * @author TuMy
  */
-public class CPaymentStatus {
+public enum CPaymentStatus {
     PAID,UNPAID
 }

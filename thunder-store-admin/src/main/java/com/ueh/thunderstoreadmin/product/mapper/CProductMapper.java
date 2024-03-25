@@ -2,6 +2,8 @@ package com.ueh.thunderstoreadmin.product.mapper;
 
 import com.ueh.thunderstoreadmin.product.dto.*;
 import com.ueh.thunderstoreadmin.product.model.CProduct;
+import com.ueh.thunderstoreadmin.product.model.CProductColor;
+import com.ueh.thunderstoreadmin.product.model.CProductSize;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingTarget;

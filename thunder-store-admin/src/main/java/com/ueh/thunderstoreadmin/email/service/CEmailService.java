@@ -7,6 +7,6 @@ import com.ueh.thunderstoreadmin.order.dto.COrderDTO;
  */
 public interface CEmailService
 {
-    //void sendSimpleMailMessage(String name, String to);
+    void sendSimpleMailMessage(String name, String to);
     void sendOrderInfoEmail(String name, String to, COrderDTO order);
 }

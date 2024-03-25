@@ -2,6 +2,7 @@ package com.ueh.thunderstoreadmin.cart.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.ueh.thunderstoreadmin.common.model.BaseEntity;
+import com.ueh.thunderstoreadmin.product.model.CProduct;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

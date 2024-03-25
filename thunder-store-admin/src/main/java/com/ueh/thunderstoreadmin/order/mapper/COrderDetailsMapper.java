@@ -2,8 +2,9 @@ package com.ueh.thunderstoreadmin.order.mapper;
 
 import com.ueh.thunderstoreadmin.order.dto.COrderDetailsDTO;
 import com.ueh.thunderstoreadmin.order.model.COrderDetails;
-import org.springframework.web.bind.annotation.Mapping;
-import org.xmlunit.util.Mapper;
+import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
+import org.mapstruct.factory.Mappers;
 
 /**
  * @author TuMy

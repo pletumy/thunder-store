@@ -1,7 +1,7 @@
-ACTIVATE_PROFILE: dev
+ACTIVE_PROFILE: dev
 
 EMAIL_HOST: smtp.gmail.com
-EMAIL_ID: tumy.drive3@gmail.com
+EMAIL_ID: ple.tumy@gmail.com
 EMAIL_PASSWORD: ttxb nlka qgzj xgjt
 EMAIL_PORT: 587
 

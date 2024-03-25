@@ -3,7 +3,7 @@ package com.ueh.thunderstoreadmin.order.model;
 /**
  * @author TuMy
  */
-public class COrderStatus {
+public enum COrderStatus {
     AWAITING,
     PENDING,
     CANCEL,

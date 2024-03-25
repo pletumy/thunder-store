@@ -8,6 +8,4 @@ import com.ueh.thunderstoreadmin.cart.dto.CCartItemUpdateDTO;
  */
 public interface CCartItemService {
     CCartItemDTO update(String id, CCartItemUpdateDTO dto);
-
-    CCartItemDTO update(String itemId, CCartItemUpdateDTO dto);
 }

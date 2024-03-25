@@ -1,6 +1,7 @@
 package com.ueh.thunderstoreadmin.cart.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.ueh.thunderstoreadmin.user.model.CUser;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,6 +1,8 @@
 package com.ueh.thunderstoreadmin.role.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.ueh.thunderstoreadmin.common.model.BaseEntity;
+import com.ueh.thunderstoreadmin.user.model.CUser;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

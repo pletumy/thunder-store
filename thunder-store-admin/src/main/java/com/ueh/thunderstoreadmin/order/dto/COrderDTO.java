@@ -1,6 +1,7 @@
 package com.ueh.thunderstoreadmin.order.dto;
 
 import com.ueh.thunderstoreadmin.order.model.COrderStatus;
+import com.ueh.thunderstoreadmin.user.dto.CUserDetailsDTO;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

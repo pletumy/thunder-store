@@ -1,6 +1,8 @@
 package com.ueh.thunderstoreadmin.cart.dto;
 
 import com.ueh.thunderstoreadmin.cart.model.CCartItem;
+import com.ueh.thunderstoreadmin.product.dto.CProductDTO;
+import com.ueh.thunderstoreadmin.product.mapper.CProductMapper;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

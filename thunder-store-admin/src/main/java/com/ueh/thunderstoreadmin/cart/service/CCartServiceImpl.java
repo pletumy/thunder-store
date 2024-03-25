@@ -7,6 +7,8 @@ import com.ueh.thunderstoreadmin.cart.model.CCart;
 import com.ueh.thunderstoreadmin.cart.model.CCartItem;
 import com.ueh.thunderstoreadmin.cart.repository.CCartItemRepository;
 import com.ueh.thunderstoreadmin.cart.repository.CCartRepository;
+import com.ueh.thunderstoreadmin.product.model.CProduct;
+import com.ueh.thunderstoreadmin.product.repository.CProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,7 @@
 package com.ueh.thunderstoreadmin.order.model;
 
 import com.ueh.thunderstoreadmin.common.model.BaseEntity;
+import com.ueh.thunderstoreadmin.user.model.CUser;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
