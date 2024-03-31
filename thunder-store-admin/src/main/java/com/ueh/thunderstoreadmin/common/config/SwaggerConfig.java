@@ -9,12 +9,14 @@ import io.swagger.v3.oas.models.security.SecurityRequirement;
 import io.swagger.v3.oas.models.security.SecurityScheme;
 import io.swagger.v3.oas.models.servers.Server;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 import java.util.List;
 
 /**
  * @author TuMy
  */
+@Configuration
 public class SwaggerConfig {
     private String devUrl = "http://localhost:8080";
 
@@ -28,9 +30,9 @@ public class SwaggerConfig {
         devServer.setDescription("Server URL in Development environment");
 
         Contact contact = new Contact();
-        contact.setEmail("devhuunhan@gmail.com");
-        contact.setName("devhuunhan");
-        contact.setUrl("https://www.devhuunhan.com");
+        contact.setEmail("ple.tumy@gmail.com");
+        contact.setName("pletumy");
+        contact.setUrl("");
 
         License mitLicense = new License().name("MIT License").url("https://choosealicense.com/licenses/mit/");
 

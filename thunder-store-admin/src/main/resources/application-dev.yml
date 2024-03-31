@@ -5,7 +5,7 @@ EMAIL_ID: ple.tumy@gmail.com
 EMAIL_PASSWORD: ttxb nlka qgzj xgjt
 EMAIL_PORT: 587
 
-MYSQL_SQL_DB: thunder_store_db
+MYSQL_SQL_DB: thunderstore1
 MYSQL_SQL_HOST: localhost
 MYSQL_SQL_PASSWORD: Lucia@123
 MYSQL_SQL_PORT: 3306

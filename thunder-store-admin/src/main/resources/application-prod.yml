@@ -5,11 +5,11 @@ EMAIL_ID: ple.tumy@gmail.com
 EMAIL_PASSWORD: ttxb nlka qgzj xgjt
 EMAIL_PORT: 587
 
-MYSQL_SQL_DB: thunder_store_db
-MYSQL_SQL_HOST: cozastore-aws-db.clu6x2bjbvwm.ap-southeast-1.rds.amazonaws.com
-MYSQL_SQL_PASSWORD: Lucia@123
+MYSQL_SQL_DB: thunderstore1
+MYSQL_SQL_HOST: thunderstore-1.cbai4gkcumgf.ap-southeast-1.rds.amazonaws.com
+MYSQL_SQL_PASSWORD: password
 MYSQL_SQL_PORT: 3306
-MYSQL_SQL_USERNAME: root
+MYSQL_SQL_USERNAME: admin
 SERVER_PORT: 8080
 
 ALLOWED_ORIGINS:
