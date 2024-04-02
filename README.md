@@ -1,4 +1,4 @@
-# Thunder STore - Fullstack Ecommerce Website
+# Thunder Store - Fullstack Ecommerce Website
 
 ## Link Deploy
 
@@ -26,7 +26,6 @@
     + Run script.sql to initiate Script.sql
 	+ Build application 
 	+ Run
-
 ```
 * Backend
 ```
