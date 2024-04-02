@@ -23,14 +23,14 @@
 
 * Frontend
 ```
-    + Run script.sql to initiate Script.sql
-	+ Build application 
-	+ Run
++ Run script.sql to initiate database
++ Build application 
++ Run
 ```
 * Backend
 ```
-    + npm install : install dependencies
-	+ npm run dev : run application
++ npm install : install dependencies
++ npm run dev : run application
 ```
 
 ## Authors
