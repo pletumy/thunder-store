@@ -27,7 +27,7 @@
 
 ![gioHang](/anh/gioHang.jpg)
 
-![thongKe](/anh/thongke.jpg)
+![thongKe](/anh/thongKe.jpg)
 
 ![adminDSDonHang](/anh/adminDSDonHang.jpg)
 
