@@ -19,6 +19,20 @@
 * thunder-store-admin-ui: admin management built on Reactjs
 * thunder-store-admin: backend using Spring Boot
 
+## Images 
+
+![trangChu](/anh/trangChu.jpg)
+
+![sanPham](/anh/sanPham.jpg)
+
+![gioHang](/anh/gioHang.jpg)
+
+![thongKe](/anh/thongke.jpg)
+
+![adminDSDonHang](/anh/adminDSDonHang.jpg)
+
+![adminDSSanPham](/anh/adminDSSanPham.jpg)
+
 ### Setup
 
 * Frontend
