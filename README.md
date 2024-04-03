@@ -4,7 +4,8 @@
 
 * Client: http://thunderstoreui.s3-website-ap-southeast-1.amazonaws.com 
 * Admin : http://thunderstoreadminui.s3-website-ap-southeast-1.amazonaws.com 
-* Username: admin1 || Password: 12345678
+* Account for **Admin**: admin1 || Password: 12345678
+* Account for **User**: (registration -> login)
 
 ## Insights
 
